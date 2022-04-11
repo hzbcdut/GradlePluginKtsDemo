@@ -1,6 +1,8 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    // 应用本地插件
+    id("demo-plugin")
 }
 
 android {
