@@ -12,8 +12,15 @@ repositories {
 }
 
 dependencies {
-    implementation(gradleApi())
+    implementation(gradleApi()) //gradle sdk
     implementation(localGroovy())
+
+    implementation("com.android.tools.build:gradle:7.0.3")
+    implementation("com.android.tools.build:gradle-api:7.0.3")
+    //ASM依赖
+    implementation("org.ow2.asm:asm:8.0")
+    implementation("org.ow2.asm:asm-util:8.0")
+    implementation("org.ow2.asm:asm-commons:8.0")
 }
 
 // 发布插件
