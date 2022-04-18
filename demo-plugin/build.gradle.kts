@@ -17,6 +17,8 @@ dependencies {
 
     implementation("com.android.tools.build:gradle:7.0.3")
     implementation("com.android.tools.build:gradle-api:7.0.3")
+
+    implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.21")
     //ASM依赖
     implementation("org.ow2.asm:asm:8.0")
     implementation("org.ow2.asm:asm-util:8.0")
