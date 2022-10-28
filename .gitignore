@@ -12,3 +12,4 @@ gradlew.bat
 gradlew
 /demo-plugin/build/
 /repository/
+/buildSrc/.gradle/
